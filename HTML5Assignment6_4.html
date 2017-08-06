@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5Assignment6.4</title>
+	<script src="Session6_4.js" type="text/javascript"></script>
+	<style type="text/css">
+		table, th, td {
+		    border: 1px solid black;
+		    border-collapse: collapse;
+		    background-color: aqua;
+		}
+		th, td {
+		    padding: 5px;
+		    text-align: left;
+		}
+		button{
+			background-color: green;
+			padding: 5px;
+			margin-top: 20px;
+			color: white;
+			text-align: center;
+		}
+		p{
+			background-color: aqua;
+			display: none;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome to Acadgild!!</h1>
+	<table id="table1">
+		<th>Header1</th>
+		<th>Header2</th>
+		<th>Header3</th>
+		<th>Header4</th>
+		<tr>
+			<td>td1.1</td>
+			<td>td1.2</td>
+			<td>td1.3</td>
+			<td>td1.4</td>
+		</tr>
+		<tr>
+			<td>td2.1</td>
+			<td>td2.2</td>
+			<td>td2.3</td>
+			<td>td2.4</td>
+		</tr>
+	</table>
+	<button onclick="getRowsAndColumnsCount('table1')">Get Count</button>
+	<p id="tableCount" ></p>
+</body>
+</html>
